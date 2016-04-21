@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-04-13 23:03:41+0000\n"
+"PO-Revision-Date: 2016-04-21 08:19:05+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -2939,16 +2939,6 @@ msgstr "Les traductions suivantes n&rsquo;ont pas pu être mises à jour&nbsp;:"
 msgid "Unable to submit this form, please refresh and try again."
 msgstr "Impossible d&rsquo;envoyer ce formulaire&nbsp;; veuillez recharger la page et réessayer."
 
-#: wp-admin/themes.php:134
-msgid ""
-"Are you sure you want to delete this theme?\n"
-"\n"
-"Click 'Cancel' to go back, 'OK' to confirm the delete."
-msgstr ""
-"Êtes-vous sûr(e) de vouloir supprimer ce thème.\n"
-"\n"
-"« Annuler » pour abandonner, « OK » pour confirmer la suppression."
-
 #: wp-admin/theme-install.php:46 wp-admin/themes.php:138
 msgid "Add New Theme"
 msgstr "Ajouter un thème"
@@ -2985,6 +2975,16 @@ msgstr "<strong>Options de l&rsquo;écran</strong> &mdash; Utilisez l&rsquo;ongl
 #: wp-admin/index.php:70
 msgid "<strong>Quick Draft</strong> &mdash; Allows you to create a new post and save it as a draft. Also displays links to the 5 most recent draft posts you've started."
 msgstr "<strong>Brouillon rapide</strong> &mdash; Vous permet de créer un nouvel article et de l&rsquo;enregistrer en tant que brouillon. Affiche également des liens vers les 5 derniers brouillons que vous avez créés."
+
+#: wp-admin/themes.php:134
+msgid ""
+"Are you sure you want to delete this theme?\n"
+"\n"
+"Click 'Cancel' to go back, 'OK' to confirm the delete."
+msgstr ""
+"Confirmez-vous la suppression de ce thème ?\n"
+"\n"
+"« Annuler » pour abandonner, « OK » pour supprimer."
 
 #: wp-admin/includes/class-wp-upgrader.php:3470
 msgid "WordPress site: %s"

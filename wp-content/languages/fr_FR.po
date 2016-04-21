@@ -1,14 +1,14 @@
-# Translation of Development (4.5.x) in French (France)
-# This file is distributed under the same license as the Development (4.5.x) package.
+# Translation of 4.5.x in French (France)
+# This file is distributed under the same license as the 4.5.x package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-04-13 11:04:34+0000\n"
+"PO-Revision-Date: 2016-04-20 10:12:40+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: GlotPress/2.1.0-alpha\n"
-"Project-Id-Version: Development (4.5.x)\n"
+"Project-Id-Version: 4.5.x\n"
 
 #. translators: Translate this to the correct language tag for your locale, see
 #. https://www.w3.org/International/articles/language-tags/ for reference. Do
@@ -116,10 +116,6 @@ msgctxt "user dropdown"
 msgid "%1$s (%2$s)"
 msgstr "%1$s (%2$s)"
 
-#: wp-includes/user.php:218
-msgid "<strong>ERROR</strong>: Invalid email address."
-msgstr "<strong>ERREUR</strong>&nbsp;: Adresse email invalide"
-
 #. translators: %s: email address
 #: wp-includes/user.php:236
 msgid "<strong>ERROR</strong>: The password you entered for the email address %s is incorrect."
@@ -132,6 +128,10 @@ msgstr "<strong>ERREUR</strong>&nbsp;: Le champ e-mail est vide."
 #: wp-login.php:848
 msgid "Your session has expired. Please log in to continue where you left off."
 msgstr "Votre session a expirée. Veuillez vous reconnecter pour reprendre là vous vous étiez arrêté."
+
+#: wp-includes/user.php:218
+msgid "<strong>ERROR</strong>: Invalid email address."
+msgstr "<strong>ERREUR</strong>&nbsp;: Adresse e-mail invalide"
 
 #: wp-includes/taxonomy.php:515
 msgid "Unregistering a built-in taxonomy is not allowed"
@@ -181,7 +181,7 @@ msgstr "Brouillon"
 msgid "<strong>ERROR</strong>: Invalid username, email address or incorrect password."
 msgstr "<strong>ERREUR</strong> : Nom d'utilisateur, e-mail ou mot de passe invalide."
 
-#: wp-includes/post-template.php:1539
+#: wp-includes/post-template.php:1536
 msgctxt "post password form"
 msgid "Enter"
 msgstr "Valider"
@@ -1917,7 +1917,7 @@ msgid "<strong>Could not find site %1$s.</strong> Searched for table %2$s in dat
 msgstr "<strong>Impossible de trouver le site %1$s.</strong> Nous avons cherché dans la table %2$s de la base de données %3$s. Est-ce bien correct&nbsp;?"
 
 #. translators: revision date format, see http://php.net/date
-#: wp-includes/post-template.php:1628 wp-includes/post-template.php:1664
+#: wp-includes/post-template.php:1625 wp-includes/post-template.php:1661
 msgctxt "revision date format"
 msgid "F j, Y @ H:i:s"
 msgstr "j F Y à G \\h i \\m\\i\\n"
@@ -3554,7 +3554,7 @@ msgstr "Le répertoire du thème &laquo;&nbsp;%s&nbsp;&raquo; n&rsquo;existe pas
 msgid "ERROR: This is not a valid feed template."
 msgstr "ERREUR&nbsp;: ce n&rsquo;est pas un flux valide."
 
-#: wp-includes/post-template.php:1538
+#: wp-includes/post-template.php:1535
 msgid "This content is password protected. To view it please enter your password below:"
 msgstr "Cet article est protégé par un mot de passe. Pour le lire, veuillez saisir votre mot de passe ci-dessous&nbsp;:"
 
@@ -3657,7 +3657,7 @@ msgstr[1] "%s années"
 msgid "#%d (no title)"
 msgstr "#%d (pas de titre)"
 
-#: wp-includes/post-template.php:1738
+#: wp-includes/post-template.php:1735
 msgid "JavaScript must be enabled to use this feature."
 msgstr "JavaScript doit être activé pour utiliser cette fonctionnalité."
 
@@ -3701,13 +3701,13 @@ msgid "Possible reason: your host may have disabled the mail() function."
 msgstr "Cause possible&nbsp;: votre hébergeur a peut-être désactivé la fonction mail()."
 
 #. translators: 1: date
-#: wp-includes/post-template.php:1630
+#: wp-includes/post-template.php:1627
 msgctxt "post revision title extra"
 msgid "%1$s [Autosave]"
 msgstr "%1$s [Sauvegarde automatique]"
 
 #. translators: 1: date
-#: wp-includes/post-template.php:1632
+#: wp-includes/post-template.php:1629
 msgctxt "post revision title extra"
 msgid "%1$s [Current Revision]"
 msgstr "%1$s [Version actuelle]"
@@ -3736,7 +3736,7 @@ msgstr "La page de connexion s&rsquo;ouvrira dans une nouvelle fenêtre. Après 
 
 #. translators: post revision title: 1: author avatar, 2: author name, 3: time
 #. ago, 4: date
-#: wp-includes/post-template.php:1674
+#: wp-includes/post-template.php:1671
 msgctxt "post revision title"
 msgid "%1$s %2$s, %3$s ago (%4$s)"
 msgstr "%1$s %2$s, il y a %3$s (%4$s)"
@@ -6803,23 +6803,23 @@ msgstr "Privé&nbsp;: %s"
 msgid "There is no excerpt because this is a protected post."
 msgstr "Il n&rsquo;y pas d&rsquo;extrait, car cet article est protégé."
 
-#: wp-includes/post-template.php:838
+#: wp-includes/post-template.php:835
 msgid "Next page"
 msgstr "Page suivante"
 
-#: wp-includes/post-template.php:839
+#: wp-includes/post-template.php:836
 msgid "Previous page"
 msgstr "Page précédente"
 
-#: wp-includes/post-template.php:1277
+#: wp-includes/post-template.php:1274
 msgid "Home"
 msgstr "Accueil"
 
-#: wp-includes/post-template.php:1681
+#: wp-includes/post-template.php:1678
 msgid "%1$s [Autosave]"
 msgstr "%1$s [Sauvegarde automatique]"
 
-#: wp-includes/post-template.php:1682
+#: wp-includes/post-template.php:1679
 msgid "%1$s [Current Revision]"
 msgstr "%1$s [Version actuelle]"
 
@@ -7469,7 +7469,7 @@ msgstr "<strong>ERREUR</strong>&nbsp;: veuillez saisir une adresse de messagerie
 msgid "Username or Email"
 msgstr "Identifiant ou adresse de messagerie"
 
-#: wp-includes/deprecated.php:1840 wp-includes/post-template.php:1442
+#: wp-includes/deprecated.php:1840 wp-includes/post-template.php:1439
 msgid "Missing Attachment"
 msgstr "Fichier joint manquant"
 
@@ -7646,7 +7646,7 @@ msgstr "Un commentaire"
 msgid "Edit This"
 msgstr "Modifier"
 
-#: wp-includes/post-template.php:832
+#: wp-includes/post-template.php:829
 msgid "Pages:"
 msgstr "Pages&nbsp;:"
 
@@ -7946,7 +7946,7 @@ msgstr "Modifier l&rsquo;article"
 msgid "All Categories"
 msgstr "Toutes"
 
-#: wp-includes/post-template.php:1143 wp-includes/theme-compat/sidebar.php:90
+#: wp-includes/post-template.php:1140 wp-includes/theme-compat/sidebar.php:90
 #: wp-includes/widgets/class-wp-widget-pages.php:31
 #: wp-includes/widgets/class-wp-widget-pages.php:55
 msgid "Pages"
@@ -8236,7 +8236,7 @@ msgstr "Activer"
 msgid "Username:"
 msgstr "Identifiant&nbsp;:"
 
-#: wp-activate.php:116 wp-includes/post-template.php:1539
+#: wp-activate.php:116 wp-includes/post-template.php:1536
 msgid "Password:"
 msgstr "Mot de passe&nbsp;:"
 

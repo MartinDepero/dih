@@ -1,0 +1,7 @@
+**1.5
+********************
+[Fixed] Responsive image height issue
+
+**1.4
+********************
+[Fixed] navthemes_footer warning
