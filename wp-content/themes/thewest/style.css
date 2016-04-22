@@ -114,7 +114,7 @@ Tags: black, yellow, dark, 	threaded-comments, custom-menu, translation-ready, f
 
 	.side_menu_wrapper .menu ul a:hover {
 
-	  color: #cbaa5c;
+	  color: #8e8e8e;
 
 	}
 
@@ -140,7 +140,7 @@ Tags: black, yellow, dark, 	threaded-comments, custom-menu, translation-ready, f
 
 	.side_menu_wrapper .menu ul li ul li a:hover{
 
-	    color: #cbaa5c !important;
+	    color: #8e8e8e !important;
 
 	 }
 
@@ -148,13 +148,9 @@ Tags: black, yellow, dark, 	threaded-comments, custom-menu, translation-ready, f
 
 	.side_menu_wrapper .social_icon {
 
-	  width: 42px;
+	  width: 20px;
 
-	  height: 42px;
-
-	  border: 2px solid #fff;
-
-	  border-radius: 100%;
+	  height: 20px;
 
 	  display: inline-block;
 
@@ -165,6 +161,14 @@ Tags: black, yellow, dark, 	threaded-comments, custom-menu, translation-ready, f
 	  margin: 5px;
 
 	}
+
+  .side_menu_wrapper .social_icon.first {
+    margin-left: 30px;
+  }
+
+  .side_menu_wrapper .social_icon:hover {
+    opacity: 0.5;
+  }
 
 	.side_menu_wrapper .social_icon .fa {
 
@@ -461,7 +465,7 @@ Tags: black, yellow, dark, 	threaded-comments, custom-menu, translation-ready, f
 
 .right_content_wrapper .middle_wrapper .about_page .nav-tabs > li > a:hover {
 
-  background: #cbaa5c;
+  background: #8e8e8e;
 
 }
 
@@ -469,7 +473,7 @@ Tags: black, yellow, dark, 	threaded-comments, custom-menu, translation-ready, f
 
 .right_content_wrapper .middle_wrapper .about_page .nav-tabs > li.active > a:hover {
 
-  background: #cbaa5c;
+  background: #8e8e8e;
 
   color: #fff;
 
@@ -827,7 +831,7 @@ Tags: black, yellow, dark, 	threaded-comments, custom-menu, translation-ready, f
 
   background: #e7e9f9;
 
-  padding: 80px 90px;
+  padding: 40px;
 
   margin-top: 150px;
 
@@ -2133,4 +2137,58 @@ padding-top: 50px;
     background: #ffffff;
     color: #000000;
     border: 2px solid #000000;
+}
+
+/* menu */
+.side_menu_wrapper .menu ul li.current-menu-item a {
+  color: #8e8e8e;
+  font-weight: bold;
+}
+
+/* footer */
+div.custom-copyright {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #8e8e8e;
+  font-size: 11px;
+}
+
+footer .social_icon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    line-height: 45px;
+    margin: 5px;
+}
+
+footer .social_icon:hover {
+    opacity: 0.5;
+}
+
+footer .logoFooter {
+  max-width: 150px;
+  heightauto;
+}
+
+#menu-footer {
+  list-style: none;
+}
+
+#menu-footer li a {
+  color: #000000;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 27px;
+  font-family: open sans;
+}
+
+#menu-footer li a:hover {
+  color: #8e8e8e;
+}
+
+div.col-md-12.col-sm-12.custom-gmap-container {
+  padding: 0;
+  margin: 20px 0 -118px;
 }
