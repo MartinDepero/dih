@@ -249,6 +249,8 @@ Tags: black, yellow, dark, 	threaded-comments, custom-menu, translation-ready, f
 .right_content_wrapper .page-title {
     text-align: center;
     text-transform: uppercase;
+    margin-left : 10px;
+    margin-right : 10px;
 }
 
 .right_content_wrapper .page-title .overly_bg {
